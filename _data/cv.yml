@@ -2,82 +2,87 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Wai Shing Tang
     - name: Date of Birth
-      value: 14th March 1879
+      value: 24th November
     - name: Languages
-      value: English, German
+      value: English, Cantonese, Mandarin, Japanese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Physics
+      institution: Brown University, Providence, Rhode Island, US
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Thesis research with <a href="https://www.lorincrawford.com/">Lorin Crawford</a>
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - Applied topological data analysis and Gaussian-process-based statistical modeling
+              to extract biophysical insights from large-scale molecular dynamics (MD) simulation datasets and
+              identify conformational ensemble differences among protein mutants
+        - title: Thesis research with Jeetain Mittal and Nicolas Fawzi
+          contents:
+            - Performed large-scale MD simulation on HPC
+            - Refined all-atom force field parameters for intrinsically disordered proteins (IDPs)
+            - Developed and applied novel approach to visualize the molecular interactions driving phase separation of IDPs
+    - title: Bachelor of Science in Physics (Enrichment Stream in Physics)
+      institution: The Chinese University of Hong Kong, Hong Kong SAR
+      year: 2017
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Flatiron Reearch Fellow
+      institution: Flatiron Institute, New York City, New York, US
+      year: Jun 2022 - Apr 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Center of Computational Mathematics (CCM) and Structural Molecular Biophysics group (SMBp)
+        - title: Ensemble refinement from cryo-EM data
+          contents:
+            - Developed Bayesian inference methods for extracting conformational heterogeneity from experimental cryo-EM data, resulting in a new statistical framework for ensemble refinement adopted in ongoing collaborative projects
+            - Worked with experimentalist collaborators to apply methods to real cryo-EM datasets
+        - title: Software development for cryo-EM data processing
+          contents:
+            - Implemented high-throughput, high-performance software for processing large-scale cryo-EM data
+            - Worked with so
+        - title: Mentoring interns
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+    - title: Senior Researcher
+      institution: Microsoft Research, Cambridge, UK
+      year: May 2025 - Oct 2025
       description:
-        - Description 1.
-        - Description 2.
+        - title: Generative molecular models for macromolecular structure prediction
+          contents:
+            - Incorporated cryo-EM imaging data into generative molecular models for macromolecular structure prediction
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Software Developed
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    github_repos:
+      - flatironinstitute/cryolike
+      - wtang8/sinatra-pro
+      - wtang8/ensemble-reweighting-cryem
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 0000
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Prize 1
+        - Prize 2
+    - year: 0000
       items:
-        - Max Planck Medal
+        - Medal 1
+
+- title: Skills
+  type: list
+  contents:
+    - <u>Programming Languages:</u> Python, C/C++, CUDA, MATLAB, R
+    - <u>Software & Tools:</u> PyTorch, GROMACS, Git
+    - <u>Research Skills:</u> Molecular dynamics simulations, Cryo-EM data analysis, Bayesian inference, Machine learning, Statistical modeling, Topological data analysis
+    - <u>Professional Skills:</u> Data visualization, High-performance computing, Git version control, Scientific writing, Interdisciplinary collaboration
 
 - title: Academic Interests
   type: nested_list
@@ -94,4 +99,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Taekwondo, Ballet, Coffee making, Rubik's Cubes
