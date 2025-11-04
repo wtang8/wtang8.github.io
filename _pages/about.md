@@ -2,9 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:
-  from silicon to carbon and from computation to life, finding order in the unseen, to seek patterns where others see noise and make sense of what connects us.
-
+subtitle: from silicon to carbon and from computation to life, finding order in the unseen, to seek patterns where others see noise and make sense of what connects us.
 
 profile:
   align: right

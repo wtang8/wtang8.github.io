@@ -134,29 +134,20 @@
       "releaseDate": "1905-06-30",
       "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
       "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
+    }
   ],
   "skills": [
     {
       "name": "Programming Languages",
       "level": "Master",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "C/C++",
-        "CUDA",
-        "MATLAB",
-      ]
+      "keywords": ["Python", "C/C++", "CUDA", "MATLAB"]
     },
     {
       "name": "Software & Tools",
       "level": "Advanced",
       "icon": "fa-solid fa-toolbox",
-      "keywords": [
-        "PyTorch",
-        "GROMACS",
-        "Git"
-      ]
+      "keywords": ["PyTorch", "GROMACS", "Git"]
     },
     {
       "name": "Research Skills",
@@ -175,13 +166,7 @@
       "name": "Professional Skills",
       "level": "Advanced",
       "icon": "fa-solid fa-briefcase",
-      "keywords": [
-        "Data visualization",
-        "High-performance computing",
-        "Git version control",
-        "Scientific writing",
-        "Interdisciplinary collaboration"
-      ]
+      "keywords": ["Data visualization", "High-performance computing", "Git version control", "Scientific writing", "Interdisciplinary collaboration"]
     }
   ],
   "languages": [
