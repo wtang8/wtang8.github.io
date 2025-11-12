@@ -83,8 +83,7 @@
       "summary": "some summary"
     }
   ],
-  "certificates": [
-  ],
+  "certificates": [],
   "publications": [
     {
       "name": "CryoLike: A python package for cryo-electron microscopy image-to-structure likelihood calculations",
