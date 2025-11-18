@@ -6,6 +6,8 @@ repo_description_lines_max: 2
 
 github_repos:
   - flatironinstitute/cryolike
+  - wtang8/cryolike
+  - wtang8/SINATRA-Pro
   # - jekyll/jekyll
   # - twbs/bootstrap
   # - jquery/jquery
