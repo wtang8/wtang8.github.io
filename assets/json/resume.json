@@ -87,9 +87,9 @@
   "publications": [
     {
       "name": "CryoLike: A python package for cryo-electron microscopy image-to-structure likelihood calculations",
-      "publisher": "bioRxiv",
-      "releaseDate": "2024-10-18",
-      "url": "https://www.biorxiv.org/content/early/2024/10/22/2024.10.18.619077",
+      "publisher": "Acta Crystallographica Section D",
+      "releaseDate": "2025-12-01",
+      "url": "https://journals.iucr.org/paper?S2059798325009350",
       "summary": ""
     }
   ],
