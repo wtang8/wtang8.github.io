@@ -4,16 +4,10 @@
     "label": "Computational Biophysicist",
     "image": "",
     "email": "wstangp@gmail.com",
-    "phone": "(401) 368 - 0382",
+    "phone (US)": "+1 (401) 368 - 0382",
+    "phone (UK)": "+44 (0)74 7690 6423",
     "url": "https://wtang8.github.io",
-    "summary": "A comptuational biophysicist specializing in molecular simulations, method development, and software engineering. Experienced in high-performance computing, statistical modeling, and data analysis. Passionate about advancing scientific understanding through computational approaches and collaborative research.",
-    "location": {
-      "address": "some street",
-      "postalCode": "some postal code",
-      "city": "some city",
-      "countryCode": "UK",
-      "region": "some region"
-    },
+    "summary": "A comptuational biophysicist specializing in statistical modeling, computational biology, and software engineering. Experienced in high-performance computing, statistical inference, and machine learning. Passionate about advancing scientific understanding through computational approaches and collaborative research.",
     "profiles": [
       {
         "network": "X",
@@ -44,21 +38,10 @@
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "some organization",
-      "location": "some location",
-      "position": "Volunteer Organizer",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "some summary",
-      "highlights": ["some highlight"]
-    }
-  ],
   "education": [
     {
       "institution": "Brown University",
-      "location": "Providence, Rhode Island, USA",
+      "location": "Providence, RI, USA",
       "area": "Physics",
       "studyType": "PhD",
       "startDate": "2017-08-01",
@@ -73,14 +56,6 @@
       "startDate": "2013-09-01",
       "endDate": "2017-06-30",
       "courses": [""]
-    }
-  ],
-  "awards": [
-    {
-      "title": "some award",
-      "date": "1921-11-01",
-      "awarder": "some awarder",
-      "summary": "some summary"
     }
   ],
   "certificates": [],
@@ -157,6 +132,7 @@
         "Molecular Simulations",
         "Software Development",
         "Bayesian Inference",
+        "Machine learning",
         "Cryo-EM",
         "Statistical Modeling",
         "High-Performance Computing"
