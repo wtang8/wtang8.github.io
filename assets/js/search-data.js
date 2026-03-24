@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Computational biophysicist, software and method developer",
+          description: "Data Scientist and Software Developer",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
