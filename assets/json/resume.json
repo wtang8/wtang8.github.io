@@ -17,9 +17,9 @@
       "summary": "Consulting on deep learning engineering and dynamical systems modeling for domain-specific applications.",
       "highlights": [
         "Work with clients on AI research, machine learning engineering, and scientific data modelling projects across domains",
-        "Developed a prototype multi-modal Transformer model for diverse business use cases.",
+        "Developed a prototype multi-modal transformer-based foundation model for cross-domain prediction and generation tasks.",
         "Designed data pipelines, tokenization strategies, and deep learning components in PyTorch and JAX.",
-        "Developed uncertainty-aware dynamical models and Bayesian optimization algorithms combining Bayesian inference, control theory, and machine learning for real-world telemetry and physical data analysis.",
+        "Developed uncertainty-aware dynamical models and Bayesian optimization algorithms for real-world telemetry and physical data analysis, integrating Bayesian inference, control theory, and machine learning.",
         "Applied statistical modelling and machine learning methods to extract insights from complex, sparse, and high-dimensional temporal datasets to support data-driven decision-making."
       ]
     },
@@ -30,8 +30,8 @@
       "endDate": "2025-10-02",
       "summary": "Fixed-term research position developing diffusion-based generative models for protein structure. Departed October 2025 to take a planned health break.",
       "highlights": [
-        "Designed Bayesian inference frameworks and probabilistic models to incorporate large-scale, noisy cryo-EM data into diffusion-based protein generative models.",
-        "Implemented scalable scientific computing workflows in collaboration with machine learning researchers and software engineers."
+        "Designed Bayesian inference frameworks and probabilistic models to incorporate large-scale, noisy cryo-EM data into diffusion generative models for protein structure prediction.",
+        "Collaborated with machine learning researchers and software engineers to implement scalable scientific computing workflows."
       ]
     },
     {
@@ -43,7 +43,7 @@
       "highlights": [
         "Led the development of Bayesian inference frameworks for extracting molecular structural information from highly noisy cryo-EM imaging data",
         "Optimized likelihood-based inference algorithms using PyTorch and GPU-accelerated computing, achieving more than 20x acceleration over CPU baselines, enabling new Bayesian applications in biomolecular structure determination.",
-        "Integrated the algorithms into end-to-end software pipelines for processing and analyzing hundreds of TBs of cryo-EM datasets across multiple GPUs on HPC",
+        "Integrated the algorithms into end-to-end software pipelines for processing and analyzing hundreds of TB of cryo-EM datasets across multiple GPUs on HPC.",
         "Extended Bayesian inference approaches beyond cryo-EM to experimental chromatin datasets, developing methods to infer ensemble structural distributions from heterogeneous biological measurements.",
         "Mentored junior researchers on Bayesian modelling, scientific machine learning, molecular dynamics simulations, and high-performance computational workflows."
       ]
@@ -56,10 +56,9 @@
       "summary": "Developed computational methods combining molecular simulation, statistical inference, and machine learning to study complex biomolecular systems.",
       "highlights": [
         "Developed computational methods combining molecular simulation, statistical inference, and machine learning to study complex biomolecular systems.",
-        "Performed large-scale molecular dynamics simulations (using GROMACS and OpenMM) to investigate molecular interactions, conformational landscapes, and phase behaviour of intrinsically disordered proteins.",
+        "Performed large-scale molecular dynamics simulations (using GROMACS and OpenMM) to investigate molecular interactions, conformational landscapes, and phase behavior of intrinsically disordered proteins.",
         "Applied advanced enhanced sampling methods (including REMD (Replica Exchange Molecular Dynamics) and PT-WTE (Parallel Tempering Well-Tempered Ensemble)) to characterize rare conformational states and molecular mechanisms.",
-        "Developed Gaussian process-based feature selection and topological data analysis approaches to extract meaningful structural representations from high-dimensional protein MD simulation datasets.",
-        "Applied machine learning methods to identify structural features distinguishing protein variants and predict mutational effects from limited simulation data.",
+        "Developed Gaussian process-based feature selection and topological data analysis approaches to extract meaningful structural representations and identify structural features distinguishing protein variants and predict mutational effects from short (<200 ns) MD simulation trajectories.",
         "Built scalable HPC workflows for molecular simulation, trajectory analysis, and large-scale scientific data processing."
       ]
     }
@@ -74,7 +73,7 @@
       "endDate": "2022-05-30",
       "courses": [
         "Advisor: Lorin Crawford",
-        "Thesis: Topological Data Analytic framework for biological structures and Short-term evolving molecular models"
+        "Thesis: Topological Data Analysis framework for biological structures and short-term evolving molecular models"
       ]
     },
     {
@@ -89,7 +88,7 @@
   "certificates": [],
   "publications": [
     {
-      "name": "CryoLike: A python package for cryo-electron microscopy image-to-structure likelihood calculations",
+      "name": "CryoLike: A Python package for cryo-electron microscopy image-to-structure likelihood calculations",
       "publisher": "Acta Crystallographica Section D",
       "releaseDate": "2025-12-01",
       "url": "https://journals.iucr.org/paper?S2059798325009350",
