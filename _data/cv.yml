@@ -64,7 +64,7 @@
           contents:
             - Led the development of Bayesian inference frameworks for extracting molecular structural information from highly noisy cryo-EM imaging data.
             - Optimized likelihood-based inference algorithms using PyTorch and GPU-accelerated computing, achieving more than 20x acceleration over CPU baselines, enabling new Bayesian applications in biomolecular structure determination.
-            - Incorporated the algorithms with an end-to-end software pipelines for processing and analyzing hundreds of TBs of cryo-EM datasets across multiple GPUs on HPC.
+            - Integrated the algorithms into end-to-end software pipelines for processing and analyzing hundreds of TBs of cryo-EM datasets across multiple GPUs on HPC.
             - Extended Bayesian inference approaches beyond cryo-EM to experimental chromatin datasets, developing methods to infer ensemble structural distributions from heterogeneous biological measurements.
             - Guided junior researchers on Bayesian modelling, scientific machine learning, molecular dynamics simulations, and high-performance computational workflows.
 
@@ -76,7 +76,7 @@
           contents:
             - Developed computational methods combining molecular simulation, statistical inference, and machine learning to study complex biomolecular systems.
             - Performed large-scale molecular dynamics simulations (using GROMACS and OpenMM) to investigate molecular interactions, conformational landscapes, and phase behaviour of intrinsically disordered proteins.
-            - Applied advanced enhanced sampling methods (including REMD and PT-WTE) to characterize rare conformational states and molecular mechanisms.
+            - Applied advanced enhanced sampling methods, including REMD (Replica Exchange Molecular Dynamics) and PT-WTE (Parallel Tempering Well-Tempered Ensemble), to characterize rare conformational states and molecular mechanisms.
             - Developed Gaussian process-based feature selection and topological data analysis approaches to extract meaningful structural representations from high-dimensional protein MD simulation datasets.
             - Applied machine learning methods to identify structural features distinguishing protein variants and predict mutational effects from limited simulation data.
             - Built scalable HPC workflows for molecular simulation, trajectory analysis, and large-scale scientific data processing.
@@ -102,25 +102,8 @@
 - title: Skills
   type: list
   contents:
-    - <u>Programming Languages:</u> Python (Master), C/C++ (Master), CUDA (Master), Bash, R, MATLAB, HTML/CSS, JavaScript/TypeScript, LaTeX
-    - <u>AI & Machine Learning (SciML):</u> Generative Models, Diffusion Models, Bayesian Inference, Gaussian Processes, Representation Learning, Active Learning, Bayesian Optimization, Topological Data Analysis (TDA)
-    - <u>Biophysics & Scientific Computing:</u> Molecular Dynamics (MD) Simulations, Enhanced Sampling (REMD, PT-WTE), Force Field Parameterization, Cryo-EM Particle Analysis, Ensemble Refinement, Conformational Landscape Mapping
-    - <u>Software Engineering & Tools:</u> PyTorch, JAX, LangGraph, LangChain, SymPy, NetworkX, GROMACS, OpenMM, FastAPI, React/Vite, Git/GitHub Actions
-    - <u>High-Performance Computing (HPC):</u> GPU-Accelerated Computing, Parallel Workflows, CUDA Profiling/Optimization, Multi-Node GPU Orchestration
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: AI for Science & SciML
-      items:
-        - Diffusion-based generative models for structural molecular biology.
-        - Physics-informed machine learning and integrating physical constraints into neural networks.
-    - title: Bayesian Inference & Statistics
-      items:
-        - Probabilistic modelling, active learning, Gaussian processes, and Bayesian optimization workflows.
-        - Development of high-throughput structural refinement algorithms for noisy imaging datasets (cryo-EM).
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Taekwondo, Ballet, Coffee making, Rubik's Cubes
+    - <u>Programming Languages:</u> Python (Master), C/C++ (Master), CUDA (Master), Bash, R, MATLAB
+    - <u>AI & Machine Learning:</u> Generative Models, Diffusion Models, Bayesian Inference, Gaussian Processes, Representation Learning, Active Learning, Bayesian Optimization, Topological Data Analysis (TDA)
+    - <u>Biophysics & Scientific Computing:</u> Molecular Dynamics (MD) Simulations, Replica Exchange Molecular Dynamics (REMD), Parallel Tempering Well-Tempered Ensemble (PT-WTE), Force Field Parameterization, Cryo-EM Data Analysis, Ensemble Refinement
+    - <u>Software Engineering & Tools:</u> PyTorch, JAX, LangGraph, LangChain, SymPy, NetworkX, GROMACS, OpenMM, FastAPI, Pandas, LaTeX, Git/GitHub Actions
+    - <u>High-Performance Computing (HPC):</u> GPU-Accelerated Computing, Distributed Computing, CUDA Profiling & Optimization
