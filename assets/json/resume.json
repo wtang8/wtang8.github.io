@@ -143,14 +143,7 @@
       "name": "Programming Languages",
       "level": "Master / Expert",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "C/C++",
-        "CUDA",
-        "Bash",
-        "R",
-        "MATLAB"
-      ]
+      "keywords": ["Python", "C/C++", "CUDA", "Bash", "R", "MATLAB"]
     },
     {
       "name": "AI & Machine Learning",
@@ -203,11 +196,7 @@
       "name": "High-Performance Computing (HPC)",
       "level": "Expert / Advanced",
       "icon": "fa-solid fa-server",
-      "keywords": [
-        "GPU-Accelerated Computing",
-        "Distributed Computing",
-        "CUDA Profiling & Optimization"
-      ]
+      "keywords": ["GPU-Accelerated Computing", "Distributed Computing", "CUDA Profiling & Optimization"]
     }
   ],
   "languages": [
@@ -237,9 +226,7 @@
     {
       "name": "CryoLike",
       "summary": "An open-source Python package for calculating cryo-EM image-to-structure likelihoods, featuring a GPU-accelerated PyTorch core.",
-      "highlights": [
-        "Optimized PyTorch-based likelihood calculations enabling backpropagation through structural representation models."
-      ],
+      "highlights": ["Optimized PyTorch-based likelihood calculations enabling backpropagation through structural representation models."],
       "startDate": "2023-01-01",
       "endDate": "current",
       "url": "https://github.com/flatironinstitute/CryoLike"
@@ -247,9 +234,7 @@
     {
       "name": "Ensemble Reweighting using Cryo-EM Particles",
       "summary": "Bayesian inference framework for characterizing conformational heterogeneity from experimental cryo-EM images.",
-      "highlights": [
-        "Developed novel Bayesian inference methods for ensemble refinement from cryo-EM data."
-      ],
+      "highlights": ["Developed novel Bayesian inference methods for ensemble refinement from cryo-EM data."],
       "startDate": "2022-06-01",
       "endDate": "2025-04-30",
       "url": "https://github.com/flatironinstitute/Ensemble-reweighting-using-Cryo-EM-particles"
