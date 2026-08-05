@@ -2,12 +2,16 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Selected open-source packages and research systems — spanning GPU-accelerated Bayesian inference, topological data analysis, and agentic AI.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
+
+<p class="project-note" style="font-style: italic; margin-bottom: 2rem; color: var(--global-text-color-light);">
+  <strong>Note on Code Availability:</strong> Most of my software work is distributed as peer-reviewed scientific packages (see the Publications tab) or developed under strict NDAs for commercial consulting clients. Below is a curated selection of open-source packages and structural system designs. Private repositories are available for code review during interviews.
+</p>
 
 <!-- pages/projects.md -->
 <div class="projects">

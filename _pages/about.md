@@ -2,35 +2,45 @@
 layout: about
 title: about
 permalink: /
-subtitle: from silicon to carbon and from computation to life, finding order in the unseen, to seek patterns where others see noise and make sense of what connects us.
+subtitle: From Silicon to Carbon - Algorithms, Bayesian Inference, and Structural Biology
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: True # crops the image to make it circular
+  image_circular: True
   more_info: >
     a picture of me at the Taekwondo National Collegiate 2022, Marlborough, MA, USA
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+selected_papers: false
+social: false
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
-I am currently open to new opportunities and collaborations. Feel free to reach out via email at <a href="mailto:wstangp@gmail.com">wstangp@gmail.com</a>.
+<div class="status-bar">
+  <div class="status-item">
+    <i class="fa-regular fa-envelope"></i> <a href="mailto:wstangpp@gmail.com">wstangpp@gmail.com</a>
+  </div>
+  <div class="status-item">
+    <i class="fa-solid fa-briefcase"></i> Open to opportunities & collaborations
+  </div>
+  <div class="status-item">
+    <i class="fa-solid fa-passport"></i> UK Right to Work (No Sponsorship Required)
+  </div>
+</div>
 
-I am a computational biophysicist and software developer trained as a physicist. My research connects the world of silicon: algorithms, computation, and information, to the world of carbon: the molecular and cellular machinery of life.
+I am an AI scientist, computational biophysicist, and software engineer trained as a physicist. My research focuses on bridging the gap between machine learning (silicon) and biological systems (carbon). 
 
-I build from first principles, combining my physics background with extensive experience in software development, numerical modelling, and statistical inference. My work focuses on developing Bayesian methods, numerical algorithms, and high-performance software for analysing complex biological data. I have contributed to open-source frameworks for cryo-electron microscopy (cryo-EM), developing models that link molecular images to physical structure and dynamics.
+My work builds from first principles. My foundation in physics and statistical mechanics deeply informs my approach to machine learning, allowing me to design mathematically rigorous, physically grounded models. Over the past few years, I've developed GPU-accelerated Bayesian inference frameworks and Ensemble Refinement methods for cryo-EM at the Flatiron Institute, and incorporated cryo-EM data in protein design at Microsoft Research, AI for Science.
 
-Across all my work, I aim to uncover the hidden order in biological systems through rigorous, quantitative methods. I am particularly motivated by interdisciplinary research, where computation, mathematics, and biology converge to illuminate the organising principles of living matter.
+Recently, after taking an intentional health break to recover from some significant life challenges, I have returned to consulting as an independent AI scientist. My latest projects involve domain-adapted foundation models, physical modeling for telemetry data, and building knowledge-graph augmented agentic systems. 
 
-The connection between silicon and carbon continues to shape my perspective: from building machines that process information to studying the molecular machines that make life possible.
+Across all my work, my goal remains the same: building systems that are not only computationally scalable but mathematically principled, to extract hidden order from complex, high-dimensional data. I am currently open to new full-time, part-time, and freelance opportunities.

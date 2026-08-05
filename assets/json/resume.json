@@ -1,33 +1,66 @@
 {
   "basics": {
-    "name": "Wai Shing Tang",
-    "label": "Computational Biophysicist",
-    "image": "",
-    "email": "wstangp@gmail.com",
-    "phone (US)": "+1 (401) 368 - 0382",
-    "phone (UK)": "+44 (0)74 7690 6423",
+    "name": "Wai Shing Tang, Ph.D.",
+    "label": "Computational Biophysicist & AI Scientist",
+    "image": "assets/img/prof_pic.jpg",
+    "email": "wstangpp@gmail.com",
+    "phone": "+44 (0)74 7690 6423",
     "url": "https://wtang8.github.io",
-    "summary": "A comptuational biophysicist specializing in statistical modeling, computational biology, and software engineering. Experienced in high-performance computing, statistical inference, and machine learning. Passionate about advancing scientific understanding through computational approaches and collaborative research."
+    "summary": "A computational biophysicist and AI scientist specialising in statistical modelling, generative machine learning, and high-performance computing. Experienced in designing Bayesian inference frameworks, diffusion-based generative models, and GPU-accelerated pipelines for structural biology and complex physical systems. Full right to work in the UK — no sponsorship required."
   },
   "work": [
     {
+      "name": "Self-Employed",
+      "position": "Independent AI Scientist & Research Engineer Consultant",
+      "startDate": "2026-02-01",
+      "endDate": "current",
+      "summary": "Consulting on deep learning engineering and dynamical systems modeling for domain-specific applications.",
+      "highlights": [
+        "Work with clients on AI research, machine learning engineering, and scientific data modelling projects across domains",
+        "Developed a prototype multi-modal Transformer model for diverse business use cases.",
+        "Designed data pipelines, tokenization strategies, and deep learning components in PyTorch and JAX.",
+        "Developed uncertainty-aware dynamical models and Bayesian optimization algorithms combining Bayesian inference, control theory, and machine learning for real-world telemetry and physical data analysis.",
+        "Applied statistical modelling and machine learning methods to extract insights from complex, sparse, and high-dimensional temporal datasets to support data-driven decision-making."
+      ]
+    },
+    {
       "name": "Microsoft Research Cambridge",
-      "position": "Senior Researcher",
+      "position": "Senior Researcher, AI4Science",
       "startDate": "2025-05-01",
       "endDate": "2025-10-02",
-      "summary": "Conducted research on generative molecular models for macromolecular structure prediction, incorporating cryo-EM imaging data into generative molecular models for macromolecular structure prediction.",
-      "highlights": ["Incorporated cryo-EM imaging data into generative molecular models for macromolecular structure prediction."]
+      "summary": "Fixed-term research position developing diffusion-based generative models for protein structure. Departed October 2025 to take a planned health break.",
+      "highlights": [
+        "Designed Bayesian inference frameworks and probabilistic models to incorporate large-scale, noisy cryo-EM data into diffusion-based protein generative models.",
+        "Implemented scalable scientific computing workflows in collaboration with machine learning researchers and software engineers."
+      ]
     },
     {
       "name": "Flatiron Institute",
-      "position": "Flatiron Research Fellow at Center of Computational Mathematics (CCM) and Structural Molecular Biophysics group (SMBp)",
+      "position": "Flatiron Research Fellow (CCM & SMBp)",
       "startDate": "2022-06-01",
       "endDate": "2025-04-30",
-      "summary": "Worked on ensemble refinement from cryo-EM data, software development for cryo-EM data processing, and mentoring interns.",
+      "summary": "Led the development of accelerated Bayesian inference frameworks and high-performance software for processing cryo-EM datasets.",
       "highlights": [
-        "Developed Bayesian inference methods for extracting conformational heterogeneity from experimental cryo-EM data, resulting in a new statistical framework for ensemble refinement adopted in ongoing collaborative projects.",
-        "Worked with experimentalist collaborators to apply methods to real cryo-EM datasets.",
-        "Implemented high-throughput, high-performance software for processing large-scale cryo-EM data."
+        "Led the development of Bayesian inference frameworks for extracting molecular structural information from highly noisy cryo-EM imaging data",
+        "Optimized likelihood-based inference algorithms using PyTorch and GPU-accelerated computing, achieving more than 20x acceleration over CPU baselines, enabling new Bayesian applications in biomolecular structure determination.",
+        "Incorporated the algorithms with an end-to-end software pipelines for processing and analyzing hundreds of TBs of cryo-EM datasets across multiple GPUs on HPC",
+        "Extended Bayesian inference approaches beyond cryo-EM to experimental chromatin datasets, developing methods to infer ensemble structural distributions from heterogeneous biological measurements.",
+        "Mentored junior researchers on Bayesian modelling, scientific machine learning, molecular dynamics simulations, and high-performance computational workflows."
+      ]
+    },
+    {
+      "name": "Brown University",
+      "position": "Ph.D. Researcher",
+      "startDate": "2017-09-01",
+      "endDate": "2022-05-30",
+      "summary": "Developed computational methods combining molecular simulation, statistical inference, and machine learning to study complex biomolecular systems.",
+      "highlights": [
+        "Developed computational methods combining molecular simulation, statistical inference, and machine learning to study complex biomolecular systems.",
+        "Performed large-scale molecular dynamics simulations (using GROMACS and OpenMM) to investigate molecular interactions, conformational landscapes, and phase behaviour of intrinsically disordered proteins.",
+        "Applied advanced enhanced sampling methods (including REMD and PT-WTE) to characterize rare conformational states and molecular mechanisms.",
+        "Developed Gaussian process-based feature selection and topological data analysis approaches to extract meaningful structural representations from high-dimensional protein MD simulation datasets.",
+        "Applied machine learning methods to identify structural features distinguishing protein variants and predict mutational effects from limited simulation data.",
+        "Built scalable HPC workflows for molecular simulation, trajectory analysis, and large-scale scientific data processing."
       ]
     }
   ],
@@ -39,16 +72,21 @@
       "studyType": "PhD",
       "startDate": "2017-08-01",
       "endDate": "2022-05-30",
-      "courses": [""]
+      "courses": [
+        "Advisor: Lorin Crawford",
+        "Thesis: Topological Data Analytic framework for biological structures and Short-term evolving molecular models"
+      ]
     },
     {
       "institution": "The Chinese University of Hong Kong",
       "location": "Hong Kong SAR",
       "area": "Physics",
-      "studyType": "BSc",
+      "studyType": "BSc (Enrichment Stream)",
       "startDate": "2013-09-01",
       "endDate": "2017-06-30",
-      "courses": [""]
+      "courses": [
+        ""
+      ]
     }
   ],
   "certificates": [],
@@ -58,40 +96,124 @@
       "publisher": "Acta Crystallographica Section D",
       "releaseDate": "2025-12-01",
       "url": "https://journals.iucr.org/paper?S2059798325009350",
-      "summary": ""
+      "summary": "Introduces an optimized Python package for calculating the likelihood of cryo-EM images given a structural model, enabling efficient Bayesian structure determination. [Stack: PyTorch, CUDA, Bayesian Likelihood, GPU Optimization]"
+    },
+    {
+      "name": "Ensemble reweighting using Cryo-EM particles",
+      "publisher": "Journal of Physical Chemistry B",
+      "releaseDate": "2023-06-15",
+      "url": "https://doi.org/10.1021/acs.jpcb.3c01594",
+      "summary": "Establishes a novel statistical reweighting framework for structural ensembles using single-particle cryo-EM datasets. [Stack: Python, Bayesian Reweighting, Conformational Heterogeneity, Cryo-EM Particle Analysis]"
+    },
+    {
+      "name": "Conformational heterogeneity and probability distributions from single-particle cryo-electron microscopy",
+      "publisher": "Current Opinion in Structural Biology",
+      "releaseDate": "2023-08-01",
+      "url": "https://doi.org/10.1016/j.sbi.2023.102626",
+      "summary": "Reviews emerging methods for determining conformational landscapes and probability distributions of macromolecules from single-particle cryo-EM. [Keywords: Single-Particle Cryo-EM, Structural Ensemble Analysis, Probability Modeling]"
+    },
+    {
+      "name": "A topological data analytic approach for discovering biophysical signatures in protein dynamics",
+      "publisher": "PLOS Computational Biology",
+      "releaseDate": "2022-05-19",
+      "url": "https://doi.org/10.1371/journal.pcbi.1010045",
+      "summary": "Introduces a topological summary statistics framework to identify biophysical features distinguishing conformational differences in molecular trajectories. [Stack: Python, Topological Data Analysis, Gaussian Processes, Feature Selection]"
+    },
+    {
+      "name": "Molecular interactions contributing to FUS SYGQ LC/RGG phase separation and co-partitioning with RNA polymerase II heptads",
+      "publisher": "Nature Structural & Molecular Biology",
+      "releaseDate": "2021-09-27",
+      "url": "https://doi.org/10.1038/s41594-021-00659-y",
+      "summary": "Investigates molecular interactions driving phase separation of intrinsically disordered proteins using atomistic simulations. [Stack: GROMACS, OpenMM, HPC Trajectory Analysis, Phase Behavior Modeling]"
+    },
+    {
+      "name": "Refining All-Atom Protein Force Fields for Polar-Rich, Prion-like, Low-Complexity Intrinsically Disordered Proteins",
+      "publisher": "Journal of Physical Chemistry B",
+      "releaseDate": "2020-10-14",
+      "url": "https://doi.org/10.1021/acs.jpcb.0c07672",
+      "summary": "Implements refinement and validation of all-atom force fields for intrinsically disordered proteins to improve dynamics and conformational mapping. [Stack: GROMACS, Force Field Parameterization, MD Simulation, IDPs]"
+    },
+    {
+      "name": "Identifying sequence perturbations to an intrinsically disordered protein that determine its phase-separation behavior",
+      "publisher": "Proceedings of the National Academy of Sciences (PNAS)",
+      "releaseDate": "2020-05-11",
+      "url": "https://doi.org/10.1073/pnas.2000223117",
+      "summary": "Models sequence variations of disordered proteins to establish phase-separation thresholds via large-scale physical simulations. [Stack: OpenMM, MD Simulation, Sequence Perturbation Analysis]"
     }
   ],
   "skills": [
     {
       "name": "Programming Languages",
-      "level": "Master",
+      "level": "Master / Expert",
       "icon": "fa-solid fa-code",
-      "keywords": ["Python", "C/C++", "CUDA", "MATLAB"]
-    },
-    {
-      "name": "Software & Tools",
-      "level": "Advanced",
-      "icon": "fa-solid fa-toolbox",
-      "keywords": ["PyTorch", "GROMACS", "Git"]
-    },
-    {
-      "name": "Research Skills",
-      "level": "Advanced",
-      "icon": "fa-solid fa-flask-vial",
       "keywords": [
-        "Molecular dynamics simulations",
-        "Cryo-EM data analysis",
-        "Bayesian inference",
-        "Machine learning",
-        "Statistical modeling",
-        "Topological data analysis"
+        "Python",
+        "C/C++",
+        "CUDA",
+        "Bash",
+        "R",
+        "MATLAB",
+        "HTML/CSS",
+        "JavaScript/TypeScript",
+        "LaTeX"
       ]
     },
     {
-      "name": "Professional Skills",
-      "level": "Advanced",
-      "icon": "fa-solid fa-briefcase",
-      "keywords": ["Data visualization", "High-performance computing", "Git version control", "Scientific writing", "Interdisciplinary collaboration"]
+      "name": "AI & Machine Learning (SciML)",
+      "level": "Expert / Advanced",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "Diffusion Models",
+        "Generative Models",
+        "Bayesian Inference",
+        "Gaussian Processes",
+        "Representation Learning",
+        "Active Learning",
+        "Bayesian Optimization",
+        "Topological Data Analysis (TDA)"
+      ]
+    },
+    {
+      "name": "Biophysics & Scientific Computing",
+      "level": "Expert / Advanced",
+      "icon": "fa-solid fa-flask-vial",
+      "keywords": [
+        "Molecular Dynamics (MD) Simulations",
+        "Enhanced Sampling (REMD, PT-WTE)",
+        "Force Field Parameterization",
+        "Cryo-EM Particle Analysis",
+        "Ensemble Refinement",
+        "Conformational Landscape Mapping"
+      ]
+    },
+    {
+      "name": "Software Engineering & Tools",
+      "level": "Expert / Advanced",
+      "icon": "fa-solid fa-toolbox",
+      "keywords": [
+        "PyTorch",
+        "JAX",
+        "LangGraph",
+        "LangChain",
+        "SymPy",
+        "NetworkX",
+        "GROMACS",
+        "OpenMM",
+        "FastAPI",
+        "React/Vite",
+        "Git/GitHub Actions"
+      ]
+    },
+    {
+      "name": "High-Performance Computing (HPC)",
+      "level": "Expert / Advanced",
+      "icon": "fa-solid fa-server",
+      "keywords": [
+        "GPU-Accelerated Computing",
+        "Parallel Workflows",
+        "CUDA Profiling/Optimization",
+        "Multi-Node GPU Orchestration"
+      ]
     }
   ],
   "languages": [
@@ -102,7 +224,7 @@
     },
     {
       "language": "English",
-      "fluency": "Profesional working proficiency",
+      "fluency": "Full professional proficiency",
       "icon": ""
     },
     {
@@ -116,63 +238,37 @@
       "icon": ""
     }
   ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Computational Biophysics",
-        "Molecular Simulations",
-        "Software Development",
-        "Bayesian Inference",
-        "Machine learning",
-        "Cryo-EM",
-        "Statistical Modeling",
-        "High-Performance Computing"
-      ]
-    }
-  ],
+  "interests": [],
   "projects": [
     {
       "name": "CryoLike",
-      "summary": "A Python package for Cryo-EM image-to-structure likelihood calculations.",
-      "highlights": ["Implemented high-throughput, high-performance algorithm for processing large-scale cryo-EM data."],
+      "summary": "An open-source Python package for calculating cryo-EM image-to-structure likelihoods, featuring a GPU-accelerated PyTorch core.",
+      "highlights": [
+        "Optimized PyTorch-based likelihood calculations enabling backpropagation through structural representation models."
+      ],
       "startDate": "2023-01-01",
       "endDate": "current",
       "url": "https://github.com/flatironinstitute/CryoLike"
     },
     {
       "name": "Ensemble Reweighting using Cryo-EM Particles",
-      "summary": "Developed Bayesian inference methods for extracting conformational heterogeneity from experimental cryo-EM data, resulting in a new statistical framework for ensemble refinement adopted in ongoing collaborative projects. Worked with experimentalist collaborators to apply methods to real cryo-EM datasets.",
-      "highlights": ["Developed novel Bayesian inference methods for ensemble refinement from cryo-EM data."],
+      "summary": "Bayesian inference framework for characterizing conformational heterogeneity from experimental cryo-EM images.",
+      "highlights": [
+        "Developed novel Bayesian inference methods for ensemble refinement from cryo-EM data."
+      ],
       "startDate": "2022-06-01",
       "endDate": "2025-04-30",
-      "url": ""
+      "url": "https://github.com/flatironinstitute/Ensemble-reweighting-using-Cryo-EM-particles"
     },
     {
       "name": "SINATRA Pro",
-      "summary": "Thesis research with Lorin Crawford. Protein Structure and Conformation Analysis using Topological Summary Statistics (in Python and C/C++).",
-      "highlights": ["Developed software for protein structure analysis using topological data analysis techniques."],
+      "summary": "A Python and C++ software tool for analyzing protein structural and conformational changes using topological data analysis.",
+      "highlights": [
+        "Developed topological summary statistic algorithms for mapping conformational features distinguished in molecular dynamics trajectories."
+      ],
       "startDate": "2020-07-01",
       "endDate": "2021-12-31",
-      "url": "",
-      "description": "Applied topological data analysis and Gaussian-process-based statistical modeling to extract biophysical insights from large-scale molecular dynamics (MD) simulation datasets and identify conformational ensemble differences among protein mutants"
-    },
-    {
-      "name": "Refining All-Atom Protein Force Fields for Polar-Rich, Prion-like, Low-Complexity Intrinsically Disordered Proteins",
-      "summary": "Refined all-atom force field parameters for intrinsically disordered proteins (IDPs). Developed and applied novel approach to visualize the molecular interactions driving phase separation of IDPs.",
-      "highlights": ["Refined all-atom force field parameters for intrinsically disordered proteins (IDPs)."],
-      "startDate": "2018-01-01",
-      "endDate": "2019-12-31",
-      "url": ""
-    },
-    {
-      "name": "Molecular interactions contributing to FUS SYGQ LC/RGG phase separation and co-partitioning with RNA polymerase II heptads",
-      "summary": "Performed large-scale MD simulation on HPC. Developed and applied novel approach to visualize the molecular interactions driving phase separation of IDPs.",
-      "highlights": ["Performed large-scale MD simulation on HPC."],
-      "startDate": "2019-01-01",
-      "endDate": "2020-05-31",
-      "url": ""
+      "url": "https://github.com/lcrawlab/SINATRA-Pro"
     }
   ]
 }

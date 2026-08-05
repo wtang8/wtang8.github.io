@@ -17,9 +17,7 @@
       description:
         - title: Thesis research with <a href="https://www.lorincrawford.com/">Lorin Crawford</a>
           contents:
-            - Applied topological data analysis and Gaussian-process-based statistical modeling
-              to extract biophysical insights from large-scale molecular dynamics (MD) simulation datasets and
-              identify conformational ensemble differences among protein mutants
+            - Applied topological data analysis and Gaussian-process-based statistical modeling to extract biophysical insights from large-scale molecular dynamics (MD) simulation datasets and identify conformational ensemble differences among protein mutants
         - title: Thesis research with Jeetain Mittal and Nicolas Fawzi
           contents:
             - Performed large-scale MD simulation on HPC
@@ -32,69 +30,95 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Flatiron Reearch Fellow
+    - title: Independent AI Scientist & Research Engineer Consultant
+      institution: Self-Employed
+      year: Feb 2026 - Present
+      description:
+        - title: AI Research & Engineering Consulting
+          contents:
+            - Work with clients on AI research, machine learning engineering, and scientific data modelling projects across domains
+        - title: Multi-Modal Transformer Development
+          contents:
+            - Developed a prototype multi-modal Transformer model for diverse business use cases.
+            - Designed data pipelines, tokenization strategies, and deep learning components in PyTorch and JAX.
+        - title: Scientific & Time-Series Data Modelling
+          contents:
+            - Developed uncertainty-aware dynamical models and Bayesian optimization algorithms combining Bayesian inference, control theory, and machine learning for real-world telemetry and physical data analysis.
+            - Applied statistical modelling and machine learning methods to extract insights from complex, sparse, and high-dimensional temporal datasets to support data-driven decision-making.
+
+    - title: Senior Researcher, AI4Science
+      institution: Microsoft Research, Cambridge, UK
+      year: May 2025 - Oct 2025
+      description:
+        - title: Generative Models & Bayesian Inference
+          contents:
+            - Designed Bayesian inference frameworks and probabilistic models to incorporate large-scale, noisy cryo-EM data into diffusion-based protein generative models.
+            - Implemented scalable scientific computing workflows in collaboration with machine learning researchers and software engineers.
+
+    - title: Flatiron Research Fellow
       institution: Flatiron Institute, New York City, New York, US
       year: Jun 2022 - Apr 2025
       description:
         - Center of Computational Mathematics (CCM) and Structural Molecular Biophysics group (SMBp)
-        - title: Ensemble refinement from cryo-EM data
+        - title: Ensemble Refinement & Software Development
           contents:
-            - Developed Bayesian inference methods for extracting conformational heterogeneity from experimental cryo-EM data, resulting in a new statistical framework for ensemble refinement adopted in ongoing collaborative projects
-            - Worked with experimentalist collaborators to apply methods to real cryo-EM datasets
-        - title: Software development for cryo-EM data processing
-          contents:
-            - Implemented high-throughput, high-performance software for processing large-scale cryo-EM data
-            - Worked with so
-        - title: Mentoring interns
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Senior Researcher
-      institution: Microsoft Research, Cambridge, UK
-      year: May 2025 - Oct 2025
+            - Led the development of Bayesian inference frameworks for extracting molecular structural information from highly noisy cryo-EM imaging data.
+            - Optimized likelihood-based inference algorithms using PyTorch and GPU-accelerated computing, achieving more than 20x acceleration over CPU baselines, enabling new Bayesian applications in biomolecular structure determination.
+            - Incorporated the algorithms with an end-to-end software pipelines for processing and analyzing hundreds of TBs of cryo-EM datasets across multiple GPUs on HPC.
+            - Extended Bayesian inference approaches beyond cryo-EM to experimental chromatin datasets, developing methods to infer ensemble structural distributions from heterogeneous biological measurements.
+            - Guided junior researchers on Bayesian modelling, scientific machine learning, molecular dynamics simulations, and high-performance computational workflows.
+
+    - title: Ph.D. Researcher
+      institution: Brown University, Providence, RI, USA
+      year: Sept 2017 - May 2022
       description:
-        - title: Generative molecular models for macromolecular structure prediction
+        - title: Biophysics & Computational Physics Research
           contents:
-            - Incorporated cryo-EM imaging data into generative molecular models for macromolecular structure prediction
+            - Developed computational methods combining molecular simulation, statistical inference, and machine learning to study complex biomolecular systems.
+            - Performed large-scale molecular dynamics simulations (using GROMACS and OpenMM) to investigate molecular interactions, conformational landscapes, and phase behaviour of intrinsically disordered proteins.
+            - Applied advanced enhanced sampling methods (including REMD and PT-WTE) to characterize rare conformational states and molecular mechanisms.
+            - Developed Gaussian process-based feature selection and topological data analysis approaches to extract meaningful structural representations from high-dimensional protein MD simulation datasets.
+            - Applied machine learning methods to identify structural features distinguishing protein variants and predict mutational effects from limited simulation data.
+            - Built scalable HPC workflows for molecular simulation, trajectory analysis, and large-scale scientific data processing.
 
 - title: Software Developed
   type: time_table
   contents:
     github_repos:
       - flatironinstitute/cryolike
-      - wtang8/sinatra-pro
-      - wtang8/ensemble-reweighting-cryem
+      - lcrawlab/sinatra-pro
+      - flatironinstitute/Ensemble-reweighting-using-Cryo-EM-particles
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 0000
+    - year: 2022
       items:
-        - Prize 1
-        - Prize 2
-    - year: 0000
+        - Flatiron Research Fellowship (Highly competitive early-career fellowship, Flatiron Institute)
+    - year: 2013-2017
       items:
-        - Medal 1
+        - Undergraduate Academic Scholarships (The Chinese University of Hong Kong)
 
 - title: Skills
   type: list
   contents:
-    - <u>Programming Languages:</u> Python, C/C++, CUDA, MATLAB, R
-    - <u>Software & Tools:</u> PyTorch, GROMACS, Git
-    - <u>Research Skills:</u> Molecular dynamics simulations, Cryo-EM data analysis, Bayesian inference, Machine learning, Statistical modeling, Topological data analysis
-    - <u>Professional Skills:</u> Data visualization, High-performance computing, Git version control, Scientific writing, Interdisciplinary collaboration
+    - <u>Programming Languages:</u> Python (Master), C/C++ (Master), CUDA (Master), Bash, R, MATLAB, HTML/CSS, JavaScript/TypeScript, LaTeX
+    - <u>AI & Machine Learning (SciML):</u> Generative Models, Diffusion Models, Bayesian Inference, Gaussian Processes, Representation Learning, Active Learning, Bayesian Optimization, Topological Data Analysis (TDA)
+    - <u>Biophysics & Scientific Computing:</u> Molecular Dynamics (MD) Simulations, Enhanced Sampling (REMD, PT-WTE), Force Field Parameterization, Cryo-EM Particle Analysis, Ensemble Refinement, Conformational Landscape Mapping
+    - <u>Software Engineering & Tools:</u> PyTorch, JAX, LangGraph, LangChain, SymPy, NetworkX, GROMACS, OpenMM, FastAPI, React/Vite, Git/GitHub Actions
+    - <u>High-Performance Computing (HPC):</u> GPU-Accelerated Computing, Parallel Workflows, CUDA Profiling/Optimization, Multi-Node GPU Orchestration
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: AI for Science & SciML
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Diffusion-based generative models for structural molecular biology.
+        - Physics-informed machine learning and integrating physical constraints into neural networks.
+    - title: Bayesian Inference & Statistics
       items:
-        - Description 1.
-        - Description 2.
+        - Probabilistic modelling, active learning, Gaussian processes, and Bayesian optimization workflows.
+        - Development of high-throughput structural refinement algorithms for noisy imaging datasets (cryo-EM).
 
 - title: Other Interests
   type: list
