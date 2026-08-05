@@ -84,9 +84,7 @@
       "studyType": "BSc (Enrichment Stream)",
       "startDate": "2013-09-01",
       "endDate": "2017-06-30",
-      "courses": [
-        ""
-      ]
+      "courses": [""]
     }
   ],
   "certificates": [],
@@ -146,17 +144,7 @@
       "name": "Programming Languages",
       "level": "Master / Expert",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "C/C++",
-        "CUDA",
-        "Bash",
-        "R",
-        "MATLAB",
-        "HTML/CSS",
-        "JavaScript/TypeScript",
-        "LaTeX"
-      ]
+      "keywords": ["Python", "C/C++", "CUDA", "Bash", "R", "MATLAB", "HTML/CSS", "JavaScript/TypeScript", "LaTeX"]
     },
     {
       "name": "AI & Machine Learning (SciML)",
@@ -208,12 +196,7 @@
       "name": "High-Performance Computing (HPC)",
       "level": "Expert / Advanced",
       "icon": "fa-solid fa-server",
-      "keywords": [
-        "GPU-Accelerated Computing",
-        "Parallel Workflows",
-        "CUDA Profiling/Optimization",
-        "Multi-Node GPU Orchestration"
-      ]
+      "keywords": ["GPU-Accelerated Computing", "Parallel Workflows", "CUDA Profiling/Optimization", "Multi-Node GPU Orchestration"]
     }
   ],
   "languages": [
@@ -243,9 +226,7 @@
     {
       "name": "CryoLike",
       "summary": "An open-source Python package for calculating cryo-EM image-to-structure likelihoods, featuring a GPU-accelerated PyTorch core.",
-      "highlights": [
-        "Optimized PyTorch-based likelihood calculations enabling backpropagation through structural representation models."
-      ],
+      "highlights": ["Optimized PyTorch-based likelihood calculations enabling backpropagation through structural representation models."],
       "startDate": "2023-01-01",
       "endDate": "current",
       "url": "https://github.com/flatironinstitute/CryoLike"
@@ -253,9 +234,7 @@
     {
       "name": "Ensemble Reweighting using Cryo-EM Particles",
       "summary": "Bayesian inference framework for characterizing conformational heterogeneity from experimental cryo-EM images.",
-      "highlights": [
-        "Developed novel Bayesian inference methods for ensemble refinement from cryo-EM data."
-      ],
+      "highlights": ["Developed novel Bayesian inference methods for ensemble refinement from cryo-EM data."],
       "startDate": "2022-06-01",
       "endDate": "2025-04-30",
       "url": "https://github.com/flatironinstitute/Ensemble-reweighting-using-Cryo-EM-particles"

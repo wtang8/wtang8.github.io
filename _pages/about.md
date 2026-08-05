@@ -37,10 +37,10 @@ latest_posts:
   </div>
 </div>
 
-I am an AI scientist, computational biophysicist, and software engineer trained as a physicist. My research focuses on bridging the gap between machine learning (silicon) and biological systems (carbon). 
+I am an AI scientist, computational biophysicist, and software engineer trained as a physicist. My research focuses on bridging the gap between machine learning (silicon) and biological systems (carbon).
 
 My work builds from first principles. My foundation in physics and statistical mechanics deeply informs my approach to machine learning, allowing me to design mathematically rigorous, physically grounded models. Over the past few years, I've developed GPU-accelerated Bayesian inference frameworks and Ensemble Refinement methods for cryo-EM at the Flatiron Institute, and incorporated cryo-EM data in protein design at Microsoft Research, AI for Science.
 
-Recently, after taking an intentional health break to recover from some significant life challenges, I have returned to consulting as an independent AI scientist. My latest projects involve domain-adapted foundation models, physical modeling for telemetry data, and building knowledge-graph augmented agentic systems. 
+Recently, after taking an intentional health break to recover from some significant life challenges, I have returned to consulting as an independent AI scientist. My latest projects involve domain-adapted foundation models, physical modeling for telemetry data, and building knowledge-graph augmented agentic systems.
 
 Across all my work, my goal remains the same: building systems that are not only computationally scalable but mathematically principled, to extract hidden order from complex, high-dimensional data. I am currently open to new full-time, part-time, and freelance opportunities.

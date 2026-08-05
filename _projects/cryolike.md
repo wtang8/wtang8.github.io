@@ -10,7 +10,7 @@ related_publications: true
 
 ### Overview
 
-Characterizing conformational heterogeneity in single-particle cryo-electron microscopy (cryo-EM) is a significant challenge in structural biology, especially for highly flexible biomolecules. Standard 3D reconstruction and classification approaches often rely on consensus maps and extensively filter or discard particle images, losing critical information about rarely occupied conformations or transition states. 
+Characterizing conformational heterogeneity in single-particle cryo-electron microscopy (cryo-EM) is a significant challenge in structural biology, especially for highly flexible biomolecules. Standard 3D reconstruction and classification approaches often rely on consensus maps and extensively filter or discard particle images, losing critical information about rarely occupied conformations or transition states.
 
 **CryoLike** is a computationally efficient, GPU-accelerated Python package developed for evaluating image-to-structure (and image-to-volume) likelihoods across large-scale cryo-EM datasets. Based on Fourier-Bessel representations of images, CryoLike enables high-throughput likelihood computations, serving as a key driver for downstream Bayesian inference, ensemble reweighting, and structural discrimination tasks.
 
@@ -34,24 +34,31 @@ CryoLike optimizes the likelihood calculation pipeline through a combination of 
 *Figure 1: Schematic workflow of the CryoLike package. (a) Image processing pipeline: Ingesting STAR/CryoSparc metadata, MRC particle stacks, and atomic coordinates (PDB) or density volumes (MRC). Conversion to Fourier space via NUFFT, applying the CTF, evaluating cross-correlations over pose parameters $\tau$, and outputting optimal poses and likelihoods. (b) Mathematical transformation: Converting physical coordinates to Fourier space, projecting onto polar grids, transforming to a Fourier-Bessel basis via 1D FFT along the angular axis, and computing cross-correlations.*
 
 #### 1. Input Specifications
+
 CryoLike ingests:
-*   **Particle Stacks:** 2D experimental images in MRC format.
-*   **CTF Parameters:** Microscope optics metadata in STAR or CryoSparc formats.
-*   **3D Models:** Atomic coordinates in PDB format or 3D density maps/volumes in MRC format.
+
+- **Particle Stacks:** 2D experimental images in MRC format.
+- **CTF Parameters:** Microscope optics metadata in STAR or CryoSparc formats.
+- **3D Models:** Atomic coordinates in PDB format or 3D density maps/volumes in MRC format.
 
 #### 2. Template Generation & Fourier Projection
+
 According to the Fourier-slice theorem, the 2D projection of a 3D structure corresponds to a slice through the origin of 3D Fourier space.
-*   **For PDB Structures:** CryoLike represents atomic densities using either a 3D Gaussian or a hard-sphere model (with Van der Waals radii on $C_\alpha$ atoms).
-*   **For 3D Volumes:** Slices are extracted using a 3D Non-Uniform Fast Fourier Transform (NUFFT) via `cuFINUFFT`/`finufft`. Slices are resolved on a polar grid $\{k_{\text{polar}}\} := (k, \psi)$ where radial frequencies are determined by Gauss-Jacobi quadrature.
-*   **CTF Application:** Slices are corrected with the image-specific contrast transfer function (CTF) to generate target templates $\hat{S}_\tau(k_{\text{polar}})$.
+
+- **For PDB Structures:** CryoLike represents atomic densities using either a 3D Gaussian or a hard-sphere model (with Van der Waals radii on $C_\alpha$ atoms).
+- **For 3D Volumes:** Slices are extracted using a 3D Non-Uniform Fast Fourier Transform (NUFFT) via `cuFINUFFT`/`finufft`. Slices are resolved on a polar grid $\{k_{\text{polar}}\} := (k, \psi)$ where radial frequencies are determined by Gauss-Jacobi quadrature.
+- **CTF Application:** Slices are corrected with the image-specific contrast transfer function (CTF) to generate target templates $\hat{S}_\tau(k_{\text{polar}})$.
 
 #### 3. Rotational Alignment in Fourier-Bessel Space
+
 To avoid the $O(N^2)$ expense of spatial image alignment, CryoLike transforms the polar Fourier representations of the experimental images and templates into a **Fourier-Bessel basis** by applying a 1D FFT along the angular coordinate $\psi$. In this basis, in-plane rotations correspond to simple phase shifts. By multiplying the Fourier-Bessel coefficients and integrating over radial frequencies, the cross-correlation profile across all rotational angles and translation offsets is evaluated rapidly:
 $$X_{\text{freq}}(\tau; \hat{A}, \text{CTF}, \hat{F}) = \mathcal{F}^{-1} \left[ \int_{0}^{k_{\text{max}}} \check{S}^\dagger(k, \cdot) \odot \check{A}(k, \cdot) k dk \right]$$
 The optimal pose parameters $\tau^{\text{opt}} = \{\gamma, \beta, \alpha, \delta\}$ are resolved by maximizing this cross-correlation.
 
 #### 4. Likelihood Calculation and Parameter Marginalization
+
 Assuming a Gaussian white-noise model with variance $\lambda^2$, CryoLike analytically marginalizes the likelihood over image-specific intensity factors $\nu$, offset variables $\mu$, and pixel variance $\lambda^2$. Users can compute the final marginalized likelihood using three approaches:
+
 1.  **Optimal Physical:** Evaluates the likelihood in physical space for only the optimal pose $\tau^{\text{opt}}$.
 2.  **Optimal Fourier:** Evaluates the likelihood in Fourier space for only the optimal pose $\tau^{\text{opt}}$.
 3.  **Integrated Fourier:** Integrates/marginalizes the likelihood in Fourier space over all possible pose parameters $\tau$ assuming a flat prior.
@@ -60,12 +67,12 @@ Assuming a Gaussian white-noise model with variance $\lambda^2$, CryoLike analyt
 
 ### Computational Performance
 
-By leveraging custom PyTorch cores and GPU acceleration, CryoLike processes millions of image-template pairs efficiently. 
+By leveraging custom PyTorch cores and GPU acceleration, CryoLike processes millions of image-template pairs efficiently.
 
-*   **Benchmarking (NVIDIA H100 GPU):**
-    *   Evaluating $1,024$ images of box size $256 \times 256$ pixels against a 3D volume using $1,024$ translation samples completes in **under 45 seconds**.
-    *   For box size $128 \times 128$ pixels with $256$ translation samples, processing finishes in **under 3 seconds**.
-*   The processing time scales with the number of frequency shells (resolution), displacement search space, and GPU memory batch size.
+- **Benchmarking (NVIDIA H100 GPU):**
+  - Evaluating $1,024$ images of box size $256 \times 256$ pixels against a 3D volume using $1,024$ translation samples completes in **under 45 seconds**.
+  - For box size $128 \times 128$ pixels with $256$ translation samples, processing finishes in **under 3 seconds**.
+- The processing time scales with the number of frequency shells (resolution), displacement search space, and GPU memory batch size.
 
 ---
 
@@ -83,6 +90,6 @@ Furthermore, CryoLike's outputs were successfully integrated into ensemble rewei
 
 ### Code and Availability
 
-*   **Academic Preprint:** "CryoLike: A Python package for Cryo-Electron Microscopy image-to-structure likelihood calculations" — deposited on *bioRxiv* (2024). [DOI: 10.1101/2024.10.18.619077](https://doi.org/10.1101/2024.10.18.619077)
-*   **GitHub Repository:** [flatironinstitute/CryoLike](https://github.com/flatironinstitute/CryoLike)
-*   **Technical Stack:** Python, PyTorch, cuFINUFFT / finufft.
+- **Academic Preprint:** "CryoLike: A Python package for Cryo-Electron Microscopy image-to-structure likelihood calculations" — deposited on _bioRxiv_ (2024). [DOI: 10.1101/2024.10.18.619077](https://doi.org/10.1101/2024.10.18.619077)
+- **GitHub Repository:** [flatironinstitute/CryoLike](https://github.com/flatironinstitute/CryoLike)
+- **Technical Stack:** Python, PyTorch, cuFINUFFT / finufft.
