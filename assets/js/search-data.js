@@ -36,7 +36,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-wrapped-up-my-time-with-microsoft-research-this-past-october-since-then-i-ve-been-intentionally-offline-taking-a-much-needed-health-break-the-last-few-years-were-difficult-as-i-navigated-some-significant-life-challenges-stepping-away-for-a-health-break-was-a-necessary-choice-and-it-has-helped-me-recover-while-i-am-still-pacing-my-work-to-prioritize-recovery-it-is-great-to-be-active-again-feel-free-to-reach-out-via-email-if-you-d-like-to-connect",
           title: 'I wrapped up my time with Microsoft Research this past October. Since then,...',
           description: "",
-          section: "News",},{id: "news-consulting-as-an-independent-ai-scientist-on-machine-learning-engineering-and-biophysical-modeling-my-recent-projects-include-domain-adapted-foundation-models-active-learning-workflows-for-sports-performance-telemetry-and-symbolic-ai-tutoring-systems-if-you-want-to-discuss-sciml-generative-models-or-custom-rag-architectures-feel-free-to-reach-out-via-email",
+          section: "News",},{id: "news-consulting-as-an-independent-ai-scientist-on-machine-learning-engineering-and-biophysical-modeling-my-recent-projects-include-domain-adapted-foundation-models-active-learning-workflows-for-sports-performance-telemetry-and-symbolic-ai-tutoring-systems-if-you-want-to-discuss-scientific-machine-learning-generative-models-or-custom-rag-architectures-feel-free-to-reach-out-via-email",
           title: 'Consulting as an independent AI scientist on machine learning engineering and biophysical modeling....',
           description: "",
           section: "News",},{id: "projects-agentic-gcse-physics-tutor",
