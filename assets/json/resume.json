@@ -17,7 +17,7 @@
       "summary": "Consulting on deep learning engineering and dynamical systems modeling for domain-specific applications.",
       "highlights": [
         "Work with clients on AI research, machine learning engineering, and scientific data modelling projects across domains",
-        "Developed a prototype multi-modal transformer-based foundation model for cross-domain prediction and generation tasks.",
+        "Developed a prototype multi-modal transformer-based foundation model for diverse business use cases.",
         "Designed data pipelines, tokenization strategies, and deep learning components in PyTorch and JAX.",
         "Developed uncertainty-aware dynamical models and Bayesian optimization algorithms for real-world telemetry and physical data analysis, integrating Bayesian inference, control theory, and machine learning.",
         "Applied statistical modelling and machine learning methods to extract insights from complex, sparse, and high-dimensional temporal datasets to support data-driven decision-making."

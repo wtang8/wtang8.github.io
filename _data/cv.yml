@@ -39,7 +39,7 @@
             - Work with clients on AI research, machine learning engineering, and scientific data modelling projects across domains
         - title: Multi-Modal Transformer Development
           contents:
-            - Developed a prototype multi-modal transformer-based foundation model for cross-domain prediction and generation tasks.
+            - Developed a prototype multi-modal transformer-based foundation model for diverse business use cases.
             - Designed data pipelines, tokenization strategies, and deep learning components in PyTorch and JAX.
         - title: Scientific & Time-Series Data Modelling
           contents:
