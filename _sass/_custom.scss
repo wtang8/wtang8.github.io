@@ -156,3 +156,30 @@ strong,
 b {
   font-weight: 700 !important;
 }
+
+// =============================================================================
+// Tutoring Page — Global Font Override Guard
+// The sitewide body rule forces Charter serif. The .tp container switches back
+// to Inter, but input/select/textarea need an explicit override too.
+// =============================================================================
+.tp,
+.tp p,
+.tp li,
+.tp div {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+// Restore serif for intentionally italic body copy inside tutoring cards
+.tp-phil-card p,
+.tp-tier-note,
+.tp-faq-body {
+  font-family: "Charter", "Georgia", "Times New Roman", serif !important;
+}
+
+// Form controls: browsers often ignore inherited font; force it
+.tp input,
+.tp select,
+.tp textarea,
+.tp button {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
