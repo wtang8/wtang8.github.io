@@ -3,6 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Selected open-source packages and research systems — spanning GPU-accelerated Bayesian inference, topological data analysis, and agentic AI.
+keywords: "Wai Shing Tang, SINATRA Pro, CryoLike, Agentic GCSE Physics Tutor, Bayesian Ensemble Reweighting, persistent homology, Cryo-EM, molecular dynamics, open-source software"
 nav: true
 nav_order: 3
 display_categories: [work, fun]

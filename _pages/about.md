@@ -2,6 +2,8 @@
 layout: about
 title: about
 permalink: /
+description: "Wai Shing Tang is an AI Scientist, Computational Biophysicist, and Software Engineer specializing in generative diffusion models, Bayesian inference, and GPU-accelerated scientific computing."
+keywords: "Wai Shing Tang, AI Scientist, Biophysics, Cryo-EM, Molecular Dynamics, Bayesian Optimization, PyTorch, CUDA, SciML"
 subtitle: From Silicon to Carbon - Algorithms, Bayesian Inference, and Structural Biology
 
 profile:
